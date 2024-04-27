@@ -15,13 +15,13 @@ Communication between modules is facilitated by two NRF24L01+ transceivers, each
 A desktop application developed using Tauri utilizes the plant positions and categories to generate scatter charts, providing a visual representation of the field. This allows for the creation of a detailed map displaying the location of each plant.
 
 ## Additional Components
-Raspberry Pi 5
-RPI Camera v3
-2x Arduino Nano
-2x NRF24L01+ Transceiver
-DC-DC Step-Down Converter
-12V Power Supply
-IMU ICM20948 (not fully integrated yet)
-2x Servo MG996 90 Degree
+1. Raspberry Pi 5
+2. RPI Camera v3
+3. 2x Arduino Nano
+4. 2x NRF24L01+ Transceiver
+5. DC-DC Step-Down Converter
+6. 12V Power Supply
+7. IMU ICM20948 (not fully integrated yet)
+8. 2x Servo MG996 90 Degree
 ## Future Improvements
 Integration of the IMU will enhance position calculation accuracy, especially when the robot doesn't move in a straight line. This will improve the precision of plant positioning over short distances, compensating for the sensor's inherent noise and limited precision in linear motion calculation.
