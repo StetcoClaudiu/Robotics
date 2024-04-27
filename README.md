@@ -1,2 +1,6 @@
 # Robotics
 This is the protype of an robot that can be used in agriculture for selectively spraying the plants by using AI.
+The Robot is made from 2 parts as u can see in the video. First one is the main robot and the second one is the module that makes the comunication between the computer and the robot.
+The idea is that the robot is going over the field and takes continuously photos, and then process them on the Raspberry pi. For the AI we use the YOLOv8 NANO model from ultralytics to get the position of the plants in the image.
+By having an static distance between the camera and the gorund we can then know how much an pixel is in real life. Then know the real position of the plants relatively to the camera, and with adjacent sides of the form form form the position of the plants and the position of the camera with sin and cos we can get the angles that the servos has to do, so that the laser diode points on the plant representing the spray. 
+The comunication is made with 2 trasrecivers NRF24L01+ capable of 1km comunication between the 2 modules, they are controlled bu the aruino nano microcontroller and them comunicate through serial one with the raspberry pi and the other with the computer
