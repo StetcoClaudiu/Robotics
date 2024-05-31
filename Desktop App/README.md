@@ -13,9 +13,13 @@ Comparative Analysis: Users can compare different scatter charts side by side, e
 2. React: Used for frontend development, enabling the creation of dynamic user interfaces for seamless interaction.
 3. Rust: Employs Rust for backend functionalities, ensuring robustness, speed, and security in data handling and communication processes.
 4. SQLite: Serves as the database management system, offering lightweight, self-contained storage for efficient data management.
-## Future Enhancements
-UI Refinement: Completing the user interface to enhance usability and provide a polished user experience.
-Real-time Updates: Implementing real-time data updates for immediate feedback and monitoring of field conditions.
-Advanced Analysis Tools: Integrating additional analytical features to enable more in-depth insights into field data, such as trend analysis and predictive modeling.
-## Conclusion
-Despite the unfinished UI, the desktop application successfully implements core features essential for data management, analysis, and visualization in the agricultural context. With planned enhancements, it aims to further empower users in optimizing agricultural operations and decision-making processes.
+## Database tables
+1. Plant:
+   -id
+   -x_position
+   -y_position
+   -category
+   -scan_id
+2. Scan:
+   -id
+   -date
