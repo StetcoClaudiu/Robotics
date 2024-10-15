@@ -25,3 +25,5 @@ A desktop application developed using Tauri utilizes the plant positions and cat
 8. 2x Servo MG996 90 Degree
 ## Future Improvements
 Integration of the IMU will enhance position calculation accuracy, especially when the robot doesn't move in a straight line. This will improve the precision of plant positioning over short distances, compensating for the sensor's inherent noise and limited precision in linear motion calculation.
+
+[![Watch the video](https://github.com/StetcoClaudiu/Robotics/blob/main/Demonstration.mp4)
